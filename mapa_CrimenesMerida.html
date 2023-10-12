@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_581902f5621eafdfd294a0443e4ea942 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_581902f5621eafdfd294a0443e4ea942" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_581902f5621eafdfd294a0443e4ea942 = L.map(
+                "map_581902f5621eafdfd294a0443e4ea942",
+                {
+                    center: [20.974135031910095, -89.62639516740302],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_714b4d9954d2f1238a1e2c95f0b0634c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var marker_200f1d337e17ec3212d6f06f08c2d242 = L.marker(
+                [21.142586, -88.147633],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_e5b45c1314995938af0906072c89c58e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_200f1d337e17ec3212d6f06f08c2d242.setIcon(icon_e5b45c1314995938af0906072c89c58e);
+        
+    
+        var popup_f8d836a07e7b954914a218a7e96fa0bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8c23d9f5325cf2b40b71acc28ec7e75 = $(`<div id="html_c8c23d9f5325cf2b40b71acc28ec7e75" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_f8d836a07e7b954914a218a7e96fa0bb.setContent(html_c8c23d9f5325cf2b40b71acc28ec7e75);
+            
+        
+
+        marker_200f1d337e17ec3212d6f06f08c2d242.bindPopup(popup_f8d836a07e7b954914a218a7e96fa0bb)
+        ;
+
+        
+    
+    
+            marker_200f1d337e17ec3212d6f06f08c2d242.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c413f12d8b49af4ee868c717dfa24101 = L.marker(
+                [21.074071, -89.666229],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_36b0fd89761eb36145da8ae02431f8b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c413f12d8b49af4ee868c717dfa24101.setIcon(icon_36b0fd89761eb36145da8ae02431f8b3);
+        
+    
+        var popup_f95ab8ec76945794cbea25f6ec3abec4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df9f2d8c76e21364b48d16b7fc1ce845 = $(`<div id="html_df9f2d8c76e21364b48d16b7fc1ce845" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_f95ab8ec76945794cbea25f6ec3abec4.setContent(html_df9f2d8c76e21364b48d16b7fc1ce845);
+            
+        
+
+        marker_c413f12d8b49af4ee868c717dfa24101.bindPopup(popup_f95ab8ec76945794cbea25f6ec3abec4)
+        ;
+
+        
+    
+    
+            marker_c413f12d8b49af4ee868c717dfa24101.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96094dfeba9dc260ca2fb9ade0438f46 = L.marker(
+                [21.07783, -89.655865],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_6ba7a9c4f6e8b904bb9827350222684f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_96094dfeba9dc260ca2fb9ade0438f46.setIcon(icon_6ba7a9c4f6e8b904bb9827350222684f);
+        
+    
+        var popup_f076b46b7d8e017f11cc0006a304b70d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a13e3d0a1fb8df40d694836b8499f773 = $(`<div id="html_a13e3d0a1fb8df40d694836b8499f773" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_f076b46b7d8e017f11cc0006a304b70d.setContent(html_a13e3d0a1fb8df40d694836b8499f773);
+            
+        
+
+        marker_96094dfeba9dc260ca2fb9ade0438f46.bindPopup(popup_f076b46b7d8e017f11cc0006a304b70d)
+        ;
+
+        
+    
+    
+            marker_96094dfeba9dc260ca2fb9ade0438f46.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f82e9d7734a6fb08a839a9f1d93726c0 = L.marker(
+                [21.001845, -89.713986],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_11396cf3e9f24fbf80a11ec1b6e94248 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f82e9d7734a6fb08a839a9f1d93726c0.setIcon(icon_11396cf3e9f24fbf80a11ec1b6e94248);
+        
+    
+        var popup_f15f05d3246a7a45a579457506deb9f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b91b877753685e0ac3a2fcd05be45696 = $(`<div id="html_b91b877753685e0ac3a2fcd05be45696" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_f15f05d3246a7a45a579457506deb9f9.setContent(html_b91b877753685e0ac3a2fcd05be45696);
+            
+        
+
+        marker_f82e9d7734a6fb08a839a9f1d93726c0.bindPopup(popup_f15f05d3246a7a45a579457506deb9f9)
+        ;
+
+        
+    
+    
+            marker_f82e9d7734a6fb08a839a9f1d93726c0.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57debb3c23f4f5f3030b526f307af188 = L.marker(
+                [21.000559, -89.712173],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_df46129d8628ab488531ddf7db4e1a67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_57debb3c23f4f5f3030b526f307af188.setIcon(icon_df46129d8628ab488531ddf7db4e1a67);
+        
+    
+        var popup_944de63ab22e088551b529801cc623e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7232b57cae4537ebd56291c5028b7f89 = $(`<div id="html_7232b57cae4537ebd56291c5028b7f89" style="width: 100.0%; height: 100.0%;"><strong>robo casa</strong></div>`)[0];
+                popup_944de63ab22e088551b529801cc623e3.setContent(html_7232b57cae4537ebd56291c5028b7f89);
+            
+        
+
+        marker_57debb3c23f4f5f3030b526f307af188.bindPopup(popup_944de63ab22e088551b529801cc623e3)
+        ;
+
+        
+    
+    
+            marker_57debb3c23f4f5f3030b526f307af188.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b896907863efcd7254fc8959e8dd640 = L.marker(
+                [20.998856, -89.724501],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_52d8f02110c5e0868a86d0a0f8fdf7a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8b896907863efcd7254fc8959e8dd640.setIcon(icon_52d8f02110c5e0868a86d0a0f8fdf7a4);
+        
+    
+        var popup_27b5129c8d8f96ce763fcda925916558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66367e8a1b15d9a1ea5a66efbd96f487 = $(`<div id="html_66367e8a1b15d9a1ea5a66efbd96f487" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_27b5129c8d8f96ce763fcda925916558.setContent(html_66367e8a1b15d9a1ea5a66efbd96f487);
+            
+        
+
+        marker_8b896907863efcd7254fc8959e8dd640.bindPopup(popup_27b5129c8d8f96ce763fcda925916558)
+        ;
+
+        
+    
+    
+            marker_8b896907863efcd7254fc8959e8dd640.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9c74440c53b615fe0919e4a73e6efdcb = L.marker(
+                [20.993177, -89.711294],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_cc9517bc2ebcee7b79b2e3b9e4a82704 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9c74440c53b615fe0919e4a73e6efdcb.setIcon(icon_cc9517bc2ebcee7b79b2e3b9e4a82704);
+        
+    
+        var popup_683a6ecd9b754c089157c47b02fe6367 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5486c704d338164e73b63980fbe07df0 = $(`<div id="html_5486c704d338164e73b63980fbe07df0" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_683a6ecd9b754c089157c47b02fe6367.setContent(html_5486c704d338164e73b63980fbe07df0);
+            
+        
+
+        marker_9c74440c53b615fe0919e4a73e6efdcb.bindPopup(popup_683a6ecd9b754c089157c47b02fe6367)
+        ;
+
+        
+    
+    
+            marker_9c74440c53b615fe0919e4a73e6efdcb.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4965135da065f2a94a5f794767907617 = L.marker(
+                [20.971428, -89.639831],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_dc48fec997a1a5284ada8d89b3d141df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4965135da065f2a94a5f794767907617.setIcon(icon_dc48fec997a1a5284ada8d89b3d141df);
+        
+    
+        var popup_d638cfad67a4c908222b2ae427dfd3e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5f06f11bd9c09aeaeadf8eafe9ba56c = $(`<div id="html_c5f06f11bd9c09aeaeadf8eafe9ba56c" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_d638cfad67a4c908222b2ae427dfd3e4.setContent(html_c5f06f11bd9c09aeaeadf8eafe9ba56c);
+            
+        
+
+        marker_4965135da065f2a94a5f794767907617.bindPopup(popup_d638cfad67a4c908222b2ae427dfd3e4)
+        ;
+
+        
+    
+    
+            marker_4965135da065f2a94a5f794767907617.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ba3af168416672b5b41a5ce61025ec97 = L.marker(
+                [20.963172, -89.631224],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_849a343961192d1d24c2a96374498d48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ba3af168416672b5b41a5ce61025ec97.setIcon(icon_849a343961192d1d24c2a96374498d48);
+        
+    
+        var popup_743fbff9954c2545447edcdcf716b812 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a1a2ebd79b6e19dbaaad65c05f13a24 = $(`<div id="html_0a1a2ebd79b6e19dbaaad65c05f13a24" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_743fbff9954c2545447edcdcf716b812.setContent(html_0a1a2ebd79b6e19dbaaad65c05f13a24);
+            
+        
+
+        marker_ba3af168416672b5b41a5ce61025ec97.bindPopup(popup_743fbff9954c2545447edcdcf716b812)
+        ;
+
+        
+    
+    
+            marker_ba3af168416672b5b41a5ce61025ec97.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a187b2625a1ebb710b8dbd9c6578686 = L.marker(
+                [20.961709, -89.629484],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_83c7cedf8dba0eb196a426e11f1a840b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3a187b2625a1ebb710b8dbd9c6578686.setIcon(icon_83c7cedf8dba0eb196a426e11f1a840b);
+        
+    
+        var popup_97d5f8fd86dc7165cb53f50f4c3f29e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bbf798f5e9f4931926a5fd60224cec6 = $(`<div id="html_6bbf798f5e9f4931926a5fd60224cec6" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_97d5f8fd86dc7165cb53f50f4c3f29e0.setContent(html_6bbf798f5e9f4931926a5fd60224cec6);
+            
+        
+
+        marker_3a187b2625a1ebb710b8dbd9c6578686.bindPopup(popup_97d5f8fd86dc7165cb53f50f4c3f29e0)
+        ;
+
+        
+    
+    
+            marker_3a187b2625a1ebb710b8dbd9c6578686.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_08891eeeca00cb21b5c94537ec8b9b0c = L.marker(
+                [20.962226, -89.625623],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_348eb45d7e6d3099ffb9ad308e5f7eea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_08891eeeca00cb21b5c94537ec8b9b0c.setIcon(icon_348eb45d7e6d3099ffb9ad308e5f7eea);
+        
+    
+        var popup_34090b726c12e9e559dfdc53020282fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13b51c0231a8a4273cfcb782ef4d1658 = $(`<div id="html_13b51c0231a8a4273cfcb782ef4d1658" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_34090b726c12e9e559dfdc53020282fc.setContent(html_13b51c0231a8a4273cfcb782ef4d1658);
+            
+        
+
+        marker_08891eeeca00cb21b5c94537ec8b9b0c.bindPopup(popup_34090b726c12e9e559dfdc53020282fc)
+        ;
+
+        
+    
+    
+            marker_08891eeeca00cb21b5c94537ec8b9b0c.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b98271b8e8bfd76536dbd6da4f2b57e6 = L.marker(
+                [20.966332, -89.622564],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_40dbd005ed54d66b1f7b2bf9959b035c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b98271b8e8bfd76536dbd6da4f2b57e6.setIcon(icon_40dbd005ed54d66b1f7b2bf9959b035c);
+        
+    
+        var popup_ddaf18e934d48ec18f719c23c190758e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0991d84718da6cee996332cf10939c34 = $(`<div id="html_0991d84718da6cee996332cf10939c34" style="width: 100.0%; height: 100.0%;"><strong>robo casa</strong></div>`)[0];
+                popup_ddaf18e934d48ec18f719c23c190758e.setContent(html_0991d84718da6cee996332cf10939c34);
+            
+        
+
+        marker_b98271b8e8bfd76536dbd6da4f2b57e6.bindPopup(popup_ddaf18e934d48ec18f719c23c190758e)
+        ;
+
+        
+    
+    
+            marker_b98271b8e8bfd76536dbd6da4f2b57e6.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29f0ff8f801d0e4b350c9d117312f5d2 = L.marker(
+                [20.965547, -89.624648],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_f1ca8ede15700edf08f1313122629dea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_29f0ff8f801d0e4b350c9d117312f5d2.setIcon(icon_f1ca8ede15700edf08f1313122629dea);
+        
+    
+        var popup_1101ae14d60cdf14aa0f2582e8552439 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19d0261ed60239211f7cd5e853053ce7 = $(`<div id="html_19d0261ed60239211f7cd5e853053ce7" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_1101ae14d60cdf14aa0f2582e8552439.setContent(html_19d0261ed60239211f7cd5e853053ce7);
+            
+        
+
+        marker_29f0ff8f801d0e4b350c9d117312f5d2.bindPopup(popup_1101ae14d60cdf14aa0f2582e8552439)
+        ;
+
+        
+    
+    
+            marker_29f0ff8f801d0e4b350c9d117312f5d2.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66de867dbfab54019fe715f5f34bfba6 = L.marker(
+                [20.964993, -89.621685],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_05c4a0b1fe99e98b51f12f980dbdada3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_66de867dbfab54019fe715f5f34bfba6.setIcon(icon_05c4a0b1fe99e98b51f12f980dbdada3);
+        
+    
+        var popup_471430b63e97d971154b0ef4d52fdbd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9553bb5b77d51ee5b71177e0467cec08 = $(`<div id="html_9553bb5b77d51ee5b71177e0467cec08" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_471430b63e97d971154b0ef4d52fdbd3.setContent(html_9553bb5b77d51ee5b71177e0467cec08);
+            
+        
+
+        marker_66de867dbfab54019fe715f5f34bfba6.bindPopup(popup_471430b63e97d971154b0ef4d52fdbd3)
+        ;
+
+        
+    
+    
+            marker_66de867dbfab54019fe715f5f34bfba6.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_045220fe87f8274e761e611e185df517 = L.marker(
+                [20.962066, -89.621226],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_fdebe15558b4e895dba34a9fa97fffd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_045220fe87f8274e761e611e185df517.setIcon(icon_fdebe15558b4e895dba34a9fa97fffd7);
+        
+    
+        var popup_71d50116cb9fd04509cb329522e0ec4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2607df75a4b5b99b642f2f4a069c011 = $(`<div id="html_f2607df75a4b5b99b642f2f4a069c011" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_71d50116cb9fd04509cb329522e0ec4b.setContent(html_f2607df75a4b5b99b642f2f4a069c011);
+            
+        
+
+        marker_045220fe87f8274e761e611e185df517.bindPopup(popup_71d50116cb9fd04509cb329522e0ec4b)
+        ;
+
+        
+    
+    
+            marker_045220fe87f8274e761e611e185df517.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2714ceba29fab57bf740f21797c3c6b6 = L.marker(
+                [20.965154, -89.622679],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_9629258a0e417f76682df31f11442258 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2714ceba29fab57bf740f21797c3c6b6.setIcon(icon_9629258a0e417f76682df31f11442258);
+        
+    
+        var popup_0aba16a6395dfa69d8ba48971684795a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1799b5210cf113a8252ae069df542e2c = $(`<div id="html_1799b5210cf113a8252ae069df542e2c" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_0aba16a6395dfa69d8ba48971684795a.setContent(html_1799b5210cf113a8252ae069df542e2c);
+            
+        
+
+        marker_2714ceba29fab57bf740f21797c3c6b6.bindPopup(popup_0aba16a6395dfa69d8ba48971684795a)
+        ;
+
+        
+    
+    
+            marker_2714ceba29fab57bf740f21797c3c6b6.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c0584e99852117d57825dc970b79e5d7 = L.marker(
+                [20.993106, -89.660014],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_f3086bbb2a7700ad3fd31fe5d7415289 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c0584e99852117d57825dc970b79e5d7.setIcon(icon_f3086bbb2a7700ad3fd31fe5d7415289);
+        
+    
+        var popup_597da826be7cfdce3c2efd10e525355f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baa2bed99ea248c32d5da78ffb3ea653 = $(`<div id="html_baa2bed99ea248c32d5da78ffb3ea653" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_597da826be7cfdce3c2efd10e525355f.setContent(html_baa2bed99ea248c32d5da78ffb3ea653);
+            
+        
+
+        marker_c0584e99852117d57825dc970b79e5d7.bindPopup(popup_597da826be7cfdce3c2efd10e525355f)
+        ;
+
+        
+    
+    
+            marker_c0584e99852117d57825dc970b79e5d7.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e1abf5fa9af2df5ad9f429365702198 = L.marker(
+                [21.011345, -89.653112],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_ee5c0a873bc0e5a14e7f255934d5b8cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2e1abf5fa9af2df5ad9f429365702198.setIcon(icon_ee5c0a873bc0e5a14e7f255934d5b8cc);
+        
+    
+        var popup_079dbae6fbcb1cde667b36003284bdf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19d8e10e04738f3483ab8cf44bb2df0f = $(`<div id="html_19d8e10e04738f3483ab8cf44bb2df0f" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_079dbae6fbcb1cde667b36003284bdf4.setContent(html_19d8e10e04738f3483ab8cf44bb2df0f);
+            
+        
+
+        marker_2e1abf5fa9af2df5ad9f429365702198.bindPopup(popup_079dbae6fbcb1cde667b36003284bdf4)
+        ;
+
+        
+    
+    
+            marker_2e1abf5fa9af2df5ad9f429365702198.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebbc61e56be7c349cd1fecffd6ffce93 = L.marker(
+                [21.036359, -89.648149],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_9eb60d8a02123ba17b028e0c8ee5fd99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ebbc61e56be7c349cd1fecffd6ffce93.setIcon(icon_9eb60d8a02123ba17b028e0c8ee5fd99);
+        
+    
+        var popup_1c8dd978a2352bb4df8df07c4c46ceba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_642b63f2a4cba9effb9a18c7cfd0eb78 = $(`<div id="html_642b63f2a4cba9effb9a18c7cfd0eb78" style="width: 100.0%; height: 100.0%;"><strong>robo casa</strong></div>`)[0];
+                popup_1c8dd978a2352bb4df8df07c4c46ceba.setContent(html_642b63f2a4cba9effb9a18c7cfd0eb78);
+            
+        
+
+        marker_ebbc61e56be7c349cd1fecffd6ffce93.bindPopup(popup_1c8dd978a2352bb4df8df07c4c46ceba)
+        ;
+
+        
+    
+    
+            marker_ebbc61e56be7c349cd1fecffd6ffce93.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd0d3f1bed2b25306d3bf9834cba452d = L.marker(
+                [21.024048, -89.583452],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_521a88de72004465bf0c206a1d6f0cfb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cd0d3f1bed2b25306d3bf9834cba452d.setIcon(icon_521a88de72004465bf0c206a1d6f0cfb);
+        
+    
+        var popup_275d65f9a676e8223fb88471874929f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63a6011fe0c4de8fcf6cdf110680484e = $(`<div id="html_63a6011fe0c4de8fcf6cdf110680484e" style="width: 100.0%; height: 100.0%;"><strong>robo casa</strong></div>`)[0];
+                popup_275d65f9a676e8223fb88471874929f5.setContent(html_63a6011fe0c4de8fcf6cdf110680484e);
+            
+        
+
+        marker_cd0d3f1bed2b25306d3bf9834cba452d.bindPopup(popup_275d65f9a676e8223fb88471874929f5)
+        ;
+
+        
+    
+    
+            marker_cd0d3f1bed2b25306d3bf9834cba452d.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53768419614a8f7b7bac512213a636f3 = L.marker(
+                [20.937102, -89.617097],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_0e04f786c2406574b96de26c3418bc38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_53768419614a8f7b7bac512213a636f3.setIcon(icon_0e04f786c2406574b96de26c3418bc38);
+        
+    
+        var popup_7585d850a4a3a080f58fe3160031ea97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a2a52927e47836d0861f8c7ff2bbfa8 = $(`<div id="html_5a2a52927e47836d0861f8c7ff2bbfa8" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_7585d850a4a3a080f58fe3160031ea97.setContent(html_5a2a52927e47836d0861f8c7ff2bbfa8);
+            
+        
+
+        marker_53768419614a8f7b7bac512213a636f3.bindPopup(popup_7585d850a4a3a080f58fe3160031ea97)
+        ;
+
+        
+    
+    
+            marker_53768419614a8f7b7bac512213a636f3.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f08ad8232c8d639ad33bbb1fb4cf997 = L.marker(
+                [20.934667, -89.627341],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_2468b819638bd786a8be8865bfc50c74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "house", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8f08ad8232c8d639ad33bbb1fb4cf997.setIcon(icon_2468b819638bd786a8be8865bfc50c74);
+        
+    
+        var popup_8e1eaa1700e76460c72bc6c4f156a24d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c4cdc31c3b4b101a47989941d98a5ea = $(`<div id="html_8c4cdc31c3b4b101a47989941d98a5ea" style="width: 100.0%; height: 100.0%;"><strong>robo casa</strong></div>`)[0];
+                popup_8e1eaa1700e76460c72bc6c4f156a24d.setContent(html_8c4cdc31c3b4b101a47989941d98a5ea);
+            
+        
+
+        marker_8f08ad8232c8d639ad33bbb1fb4cf997.bindPopup(popup_8e1eaa1700e76460c72bc6c4f156a24d)
+        ;
+
+        
+    
+    
+            marker_8f08ad8232c8d639ad33bbb1fb4cf997.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7d56119c32509b1e8e67d6e21b3fd6c = L.marker(
+                [20.925104, -89.647423],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_c131f84a1b5e98fd6d923b05fbdefffb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f7d56119c32509b1e8e67d6e21b3fd6c.setIcon(icon_c131f84a1b5e98fd6d923b05fbdefffb);
+        
+    
+        var popup_db675cf4443065ec71a3c8b7b5b0e59e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_247e76269d208adb2e4ae18941fe6d61 = $(`<div id="html_247e76269d208adb2e4ae18941fe6d61" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_db675cf4443065ec71a3c8b7b5b0e59e.setContent(html_247e76269d208adb2e4ae18941fe6d61);
+            
+        
+
+        marker_f7d56119c32509b1e8e67d6e21b3fd6c.bindPopup(popup_db675cf4443065ec71a3c8b7b5b0e59e)
+        ;
+
+        
+    
+    
+            marker_f7d56119c32509b1e8e67d6e21b3fd6c.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17c73e4908444ace8714c4d0a8c06985 = L.marker(
+                [20.924396, -89.611624],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_61aec96a853920e924dd77d6de5b9bb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_17c73e4908444ace8714c4d0a8c06985.setIcon(icon_61aec96a853920e924dd77d6de5b9bb5);
+        
+    
+        var popup_597f720ce2ed83d3044b957eae7a7934 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fdee764ae9592152eaefd2e5f9db4e2c = $(`<div id="html_fdee764ae9592152eaefd2e5f9db4e2c" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_597f720ce2ed83d3044b957eae7a7934.setContent(html_fdee764ae9592152eaefd2e5f9db4e2c);
+            
+        
+
+        marker_17c73e4908444ace8714c4d0a8c06985.bindPopup(popup_597f720ce2ed83d3044b957eae7a7934)
+        ;
+
+        
+    
+    
+            marker_17c73e4908444ace8714c4d0a8c06985.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1100005d640cba477f7b886b33eaed78 = L.marker(
+                [20.925407, -89.611841],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_e882cb9326f5990df13545e5862ff776 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1100005d640cba477f7b886b33eaed78.setIcon(icon_e882cb9326f5990df13545e5862ff776);
+        
+    
+        var popup_746ce501d141c4624f5833eeb3cb4558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a08102ed86502e30519a6828f58bffb3 = $(`<div id="html_a08102ed86502e30519a6828f58bffb3" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_746ce501d141c4624f5833eeb3cb4558.setContent(html_a08102ed86502e30519a6828f58bffb3);
+            
+        
+
+        marker_1100005d640cba477f7b886b33eaed78.bindPopup(popup_746ce501d141c4624f5833eeb3cb4558)
+        ;
+
+        
+    
+    
+            marker_1100005d640cba477f7b886b33eaed78.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_080eda87671304d61ea1c5d91c790f5a = L.marker(
+                [21.278883, -89.673298],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_b03f3254668b2f5bbfa2da647702aea7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_080eda87671304d61ea1c5d91c790f5a.setIcon(icon_b03f3254668b2f5bbfa2da647702aea7);
+        
+    
+        var popup_f2c9f741788a8eef770b37ebb0184484 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd3d7633b2306368eb4beeb3e2ef4b50 = $(`<div id="html_bd3d7633b2306368eb4beeb3e2ef4b50" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_f2c9f741788a8eef770b37ebb0184484.setContent(html_bd3d7633b2306368eb4beeb3e2ef4b50);
+            
+        
+
+        marker_080eda87671304d61ea1c5d91c790f5a.bindPopup(popup_f2c9f741788a8eef770b37ebb0184484)
+        ;
+
+        
+    
+    
+            marker_080eda87671304d61ea1c5d91c790f5a.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ba1206652922f3781c07512bc2be530 = L.marker(
+                [21.280883, -89.65802],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_da763e043c9c368dcfa85e4139c298cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3ba1206652922f3781c07512bc2be530.setIcon(icon_da763e043c9c368dcfa85e4139c298cf);
+        
+    
+        var popup_ed181d03be2a52e8a19dd302a2c63c89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6668f8587b0a50e0980a85dfcc7a339c = $(`<div id="html_6668f8587b0a50e0980a85dfcc7a339c" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_ed181d03be2a52e8a19dd302a2c63c89.setContent(html_6668f8587b0a50e0980a85dfcc7a339c);
+            
+        
+
+        marker_3ba1206652922f3781c07512bc2be530.bindPopup(popup_ed181d03be2a52e8a19dd302a2c63c89)
+        ;
+
+        
+    
+    
+            marker_3ba1206652922f3781c07512bc2be530.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_01e848d480c6035c2ab7681dc2dee41f = L.marker(
+                [21.284122, -89.665359],
+                {}
+            ).addTo(map_581902f5621eafdfd294a0443e4ea942);
+        
+    
+            var icon_8a49209f026314a0c13c9b4f3e184b61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gun", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_01e848d480c6035c2ab7681dc2dee41f.setIcon(icon_8a49209f026314a0c13c9b4f3e184b61);
+        
+    
+        var popup_deda084819cd4effa7a1a6492524da53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94dfe4236b8b14a1f9a0aef92b21abd6 = $(`<div id="html_94dfe4236b8b14a1f9a0aef92b21abd6" style="width: 100.0%; height: 100.0%;"><strong>asalto</strong></div>`)[0];
+                popup_deda084819cd4effa7a1a6492524da53.setContent(html_94dfe4236b8b14a1f9a0aef92b21abd6);
+            
+        
+
+        marker_01e848d480c6035c2ab7681dc2dee41f.bindPopup(popup_deda084819cd4effa7a1a6492524da53)
+        ;
+
+        
+    
+    
+            marker_01e848d480c6035c2ab7681dc2dee41f.bindTooltip(
+                `<div>
+                     <strong>Presiona aquí para ver el tipo de crimen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
