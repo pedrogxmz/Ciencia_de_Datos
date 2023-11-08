@@ -4,8 +4,8 @@
 Esta notebook contiene información obtenida directamente de la API proporcionada por el INEGI sobre temas de educación y crímenes en México.
 https://nbviewer.org/github/pedrogxmz/Ciencia_de_Datos/blob/main/Analisis_INEGI.ipynb
 
-### [Energia Eólica]
-(https://nbviewer.org/github/pedrogxmz/Ciencia_de_Datos/blob/main/MapaEnergiaEolicaMexico.ipynb)
+### Energia Eólica[]
+[Energia Eólica]:https://nbviewer.org/github/pedrogxmz/Ciencia_de_Datos/blob/main/MapaEnergiaEolicaMexico.ipynb
 Esta notebook contiene un mapa que muestra las plantas de energía eólica en el  país
 
 ### Crimenes en Mérida
